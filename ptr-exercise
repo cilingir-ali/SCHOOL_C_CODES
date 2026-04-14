@@ -1,0 +1,96 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+/*
+int y = 5;
+int *yPtr = nullptr;
+yPtr = &y;
+cout<<y;
+cout<<&y;
+cout<<yPtr;
+cout<<*yPtr;
+*yPtr = 9;
+cout<<*yPtr<<endl;
+cout<<y<<endl;
+*/
+/*
+int ilkdeger = 5,ikincideger = 15;
+int *p1,*p2;
+p1 = &ilkdeger;
+p2 = &ikincideger;
+cout<<p1<<endl;
+cout<<p2<<endl;
+
+cout<<ilkdeger<<endl;
+cout<<ikincideger<<endl;
+
+*p1 = 10;
+cout<<ilkdeger<<endl;
+*p2 = *p1;
+cout<<"ikinci deger: "<<ikincideger<<endl;
+cout<<p1<<endl;
+cout<<p2<<endl;
+p1 = p2;
+cout<<p1<<endl;
+cout<<p2<<endl;
+//*p1 = 20;
+  */
+  /*
+int *lp;
+lp = new int;
+*lp = 75;
+cout<<*lp<<endl;
+cout<<lp<<endl;
+delete lp;
+cout<<"silme işlemi sonrası değerler: "<<endl;
+
+
+cout<<*lp<<endl;
+cout<<lp<<endl;
+
+int  *lp2;
+lp2 = new int [5];
+  
+  
+  
+  
+  
+  
+  
+*/
+int *p1,*p2,*p3,*p4;
+int x,y,z;
+cout<<"lütfen 3 sayı giriniz"<<endl;
+cin>>x>>y>>z;
+p1 = new int;
+p2 = new int;
+p3 = new int;
+
+p1= &x;
+p2 = &y;
+p3 = &z;
+p4 =new int;
+int toplam = x + y +z;
+p4 = &toplam;
+cout <<x<<endl;
+cout <<y<<endl;
+cout <<z<<endl;
+cout <<p1<<endl;
+cout <<p2<<endl;
+cout <<p3<<endl;
+cout <<"toplam:"<<*p4<<endl;
+p1 = nullptr;
+p2 = nullptr;
+p3 = nullptr;
+p4 = nullptr;
+
+return 0;
+}
+
+
+
+
+
+
+
